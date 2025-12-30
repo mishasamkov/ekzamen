@@ -10,9 +10,9 @@ namespace Common
     {
 
         public string Name { get; set; }
-        public string Tag { get; set; }
         public DateTime DateTime { get; set; }
-        public string Src { get; set; }
+        public string Src { get; set; } 
+        public string Tag { get; set; }
         public News(string name, string tag,DateTime dateTime,string src) {
 
             this.Name = name;
